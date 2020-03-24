@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pdtay\\dotnet\\booklistrazor\\booklistrazor\\BookListRazor.csproj": {}
+    "C:\\Users\\pdtay\\dotnet\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pdtay\\dotnet\\booklistrazor\\booklistrazor\\BookListRazor.csproj": {
+    "C:\\Users\\pdtay\\dotnet\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pdtay\\dotnet\\booklistrazor\\booklistrazor\\BookListRazor.csproj",
+        "projectUniqueName": "C:\\Users\\pdtay\\dotnet\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "C:\\Users\\pdtay\\dotnet\\booklistrazor\\booklistrazor\\BookListRazor.csproj",
+        "projectPath": "C:\\Users\\pdtay\\dotnet\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
         "packagesPath": "C:\\Users\\pdtay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pdtay\\dotnet\\booklistrazor\\booklistrazor\\obj\\",
+        "outputPath": "C:\\Users\\pdtay\\dotnet\\BookListRazor\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
