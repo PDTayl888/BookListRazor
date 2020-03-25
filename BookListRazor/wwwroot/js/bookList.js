@@ -6,7 +6,8 @@ $(document).ready(function () {
 });
 
 function loadDataTable() {
-    console.log("INSIDE LOADDATATBLE");
+    console.log("INSIDE LOADDATATBLE TEST");
+    console.log("UPSERT DATATABLE");
     dataTable = $('#DT_load').DataTable({
         "ajax": {
             "url": "/api/book",
@@ -21,13 +22,13 @@ function loadDataTable() {
                 "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
-                        <a href="/BookList/Edit?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:70px;'>
-                            Edit
+                        <a href="/BookList/Upsert?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:70px;'>
+                            Edit Test Upsert
                         </a>
                         &nbsp;
                         <a class='btn btn-danger text-white' style='cursor:pointer; width:70px;'
                             onclick=Delete('/api/book?id='+${data})>
-                            Delete
+                            Delete Test
                         </a>
                         </div>`;
                 }, "width": "40%"
@@ -42,7 +43,7 @@ function loadDataTable() {
 
 function Delete(url) {
     swal({
-        title: "Are you sure?",
+        title: "Are you sure BRO BRO BRO?",
         text: "Once deleted, you will not be able to recover",
         icon: "warning",
         dangerMode: true 
